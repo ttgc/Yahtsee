@@ -29,38 +29,6 @@ public class main extends StateBasedGame {
 		} catch(SlickException e){
 			e.printStackTrace();
 		}
-		
-		/*boolean[] rl = {true,true,true,true,true};
-        
-        DiceSet ds = new DiceSet();
-        System.out.println(Arrays.toString(ds.getDices()));
-        System.out.println(ds.getReroll()+" - "+ds.getCumul());
-        for (int i=0;i<=13;i++) {
-            System.out.println(ds.calculate_score(i));
-        }
-        ds.roll(rl);
-        //rl[2] = false;
-        System.out.println(Arrays.toString(ds.getDices()));
-        System.out.println(ds.getReroll()+" - "+ds.getCumul());
-        for (int i=0;i<=13;i++) {
-            System.out.println(ds.calculate_score(i));
-        }
-        ds.roll(rl);
-        rl[1] = false;
-        rl[4] = false;
-        rl[2] = true;
-        System.out.println(Arrays.toString(ds.getDices()));
-        System.out.println(ds.getReroll()+" - "+ds.getCumul());
-        for (int i=0;i<=13;i++) {
-            System.out.println(ds.calculate_score(i));
-        }
-        ds.roll(rl);
-        System.out.println(Arrays.toString(ds.getDices()));
-        System.out.println(ds.getReroll()+" - "+ds.getCumul());
-        for (int i=0;i<=13;i++) {
-            System.out.println(ds.calculate_score(i));
-        }
-        ds.roll(rl);*/
 
 	}
 
